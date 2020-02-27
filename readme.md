@@ -1,5 +1,7 @@
 # create-pg-db
 
+![node version](https://img.shields.io/badge/node-%3E%3D%208.10-brightgreen)
+
 Create and drop databases using [node-postgres (pg)](https://github.com/brianc/node-postgres).
 
 ## Why?
