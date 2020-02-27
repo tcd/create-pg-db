@@ -1,0 +1,33 @@
+{
+  "name": "create-pg-db",
+  "author": "Clay Dunston <dunstontc@gmail.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Create and drop databases using node-postgres (pg).",
+  "homepage": "https://github.com/tcd/create-pg-db",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcd/create-pg-db"
+  },
+  "keywords": [
+    "pg",
+    "postgres",
+    "postgresql",
+    "sequelize",
+    "knex",
+    "typeorm"
+  ],
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
